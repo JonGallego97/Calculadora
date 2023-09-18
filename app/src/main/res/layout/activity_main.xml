@@ -43,7 +43,8 @@
             style="@style/Button_Style"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/x" />
+            android:text="@string/x"
+            android:textColor="#129517" />
     </TableRow>
 
     <TableRow
@@ -81,7 +82,8 @@
             style="@style/Button_Style"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/minus" />
+            android:text="@string/minus"
+            android:textColor="#129517" />
 
     </TableRow>
 
@@ -120,7 +122,8 @@
             style="@style/Button_Style"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/plus" />
+            android:text="@string/plus"
+            android:textColor="#129517" />
     </TableRow>
 
     <Button
@@ -130,6 +133,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="105dp"
         android:text="@string/div"
+        android:textColor="#129517"
         app:layout_constraintBottom_toTopOf="@+id/tableRow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonDelete"
@@ -170,7 +174,8 @@
             style="@style/Button_Style"
             android:layout_width="105dp"
             android:layout_height="95dp"
-            android:text="@string/coma" />
+            android:text="@string/coma"
+            android:textColor="#129517" />
 
         <Button
             android:id="@+id/buttonEqual"
@@ -178,6 +183,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/equals"
+            android:textColor="#129517"
             android:textColorLink="#03A9F4" />
     </TableRow>
 
@@ -185,6 +191,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:backgroundTint="#C0CA33"
         android:gravity="bottom"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/buttonDelete"

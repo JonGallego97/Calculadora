@@ -24,7 +24,8 @@
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_8" />
+            android:text="@string/_8"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button9"
@@ -32,6 +33,7 @@
             android:layout_width="115dp"
             android:layout_height="match_parent"
             android:text="@string/_9"
+            android:textStyle="bold"
             tools:ignore="HardcodedText" />
 
         <Button
@@ -40,7 +42,8 @@
             android:layout_width="230dp"
             android:layout_height="95dp"
             android:text="@string/ac"
-            android:textColor="#E91E63" />
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
 
     </TableRow>
 
@@ -61,21 +64,24 @@
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_0" />
+            android:text="@string/_0"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button1"
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_1" />
+            android:text="@string/_1"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button2"
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_2" />
+            android:text="@string/_2"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button3"
@@ -83,6 +89,7 @@
             android:layout_width="115dp"
             android:layout_height="match_parent"
             android:text="@string/_3"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="176dp" />
 
@@ -132,28 +139,32 @@
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_4" />
+            android:text="@string/_4"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button5"
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_5" />
+            android:text="@string/_5"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button6"
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_6" />
+            android:text="@string/_6"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button7"
             style="@style/Button_Style"
             android:layout_width="115dp"
             android:layout_height="match_parent"
-            android:text="@string/_7" />
+            android:text="@string/_7"
+            android:textStyle="bold" />
 
     </TableRow>
 
@@ -175,6 +186,7 @@
             android:layout_width="115dp"
             android:layout_height="95dp"
             android:text="@string/plus"
+            android:textColor="#129517"
             tools:layout_editor_absoluteX="813dp"
             tools:layout_editor_absoluteY="157dp" />
 
@@ -184,6 +196,7 @@
             android:layout_width="115dp"
             android:layout_height="95dp"
             android:text="@string/minus"
+            android:textColor="#129517"
             tools:layout_editor_absoluteX="898dp"
             tools:layout_editor_absoluteY="157dp" />
 
@@ -193,6 +206,8 @@
             android:layout_width="115dp"
             android:layout_height="95dp"
             android:text="@string/x"
+            android:textColor="#129517"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="898dp"
             tools:layout_editor_absoluteY="157dp" />
 
@@ -217,6 +232,8 @@
             android:layout_width="115dp"
             android:layout_height="95dp"
             android:text="@string/coma"
+            android:textColor="#129517"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="898dp"
             tools:layout_editor_absoluteY="209dp" />
 
@@ -226,7 +243,8 @@
             android:layout_width="115dp"
             android:layout_height="95dp"
             android:text="@string/equals"
-            android:textColorLink="#03A9F4"
+            android:textColor="#129517"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="692dp"
             tools:layout_editor_absoluteY="196dp" />
 
@@ -236,6 +254,9 @@
             android:layout_width="115dp"
             android:layout_height="match_parent"
             android:text="@string/div"
+            android:textColor="#129517"
+            android:textColorLink="#129517"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="542dp"
             tools:layout_editor_absoluteY="359dp" />
 
