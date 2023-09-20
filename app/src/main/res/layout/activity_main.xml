@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#2DFFFFFF"
     tools:context=".MainActivity">
 
     <TableRow
@@ -206,7 +206,7 @@
             android:layout_marginTop="3dp"
             android:ems="10"
             android:fontFamily="sans-serif"
-            android:gravity="left"
+            android:gravity="start"
             android:maxLines="2"
             android:textColor="#4CAF50"
             android:textSize="50sp" />
