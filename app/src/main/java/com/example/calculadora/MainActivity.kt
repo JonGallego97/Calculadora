@@ -75,7 +75,6 @@ class MainActivity : AppCompatActivity() {
         currentInput += number
         updateResult()
     }
-
     private fun updateResult() {
         findViewById<TextView>(R.id.result).text = currentInput
     }
