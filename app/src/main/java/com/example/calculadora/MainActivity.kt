@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
         currentInput += operation
         updateResult()
 
+
     }
     private fun calculateExpression(expression: String): Double {
         val parts = expression.split(Regex("[+\\-x/]"))
